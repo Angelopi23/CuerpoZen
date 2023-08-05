@@ -340,6 +340,11 @@ align-items: center;
 
     height: 500px;
   }
+
+  .swiper-container .swiper-pagination{
+    margin-bottom: 20px;
+      }
+
   }
  
 
@@ -397,4 +402,9 @@ align-items: center;
 
 }
 
+@media (max-width: 400px) {
+    .nosotros-h2 h2 {
+        line-height: 1.5;
+      }
 
+}
