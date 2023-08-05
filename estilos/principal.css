@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    width: 100%;
+    height: 97vh;
+    font-family: "Baloo 2", sans-serif;
+  
+    }
+                                                              /*NAVBAR*/
+ #navbar{
+margin: 0;
+padding: 1px;
+background-color: white;
+ }
+        
+.img-navbar{
+  width: 90px;
+}
+        
+ .navbar-brand{
+  font-size: 25px;
+  font-weight: 600;
+ letter-spacing: 1px;
+ border-radius: 3px;
+transition: 0.5s ease;
+ margin: 0px 5px;
+ color: #D9B59C;
+ }
+ .navbar-brand:hover{
+    color: #D9B59C;
+}
+
+
+.nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    margin: 0px 5px;
+}
+
+.nav-item .nav-link:hover{
+    color: #D9B59C;
+}
+
+/*las 3 rallitas*/
+.navbar-toggler span{
+    color: #D9B59C;
+}
+
+                                                        /*APP WHATSAPP*/
+
+.btn-whatsapp{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0);
+    z-index: 100;
+}
+
+.btn-whatsapp:hover{
+text-decoration: none;
+color: #0df053;
+background: #fff;
+}
+
+
+                                                            /*NOSTOROS*/
+
+.nosotros {
+    position: relative;
+    background: url(/imagenes/fondo-nosotros.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 15px 50px 0 50px;
+    
+}
+
+.nosotros-h2 h2 {
+    line-height: 0.3;
+  }
+
+.nosotros-container {
+    padding: 20px;
+    color: #844b32;
+    text-align: center;
+}
+
+.tex-nosotros{
+    text-align: justify;
+}
+
+.img-nosotros{
+    max-width: 600px;
+    text-align: center;
+}
+
+.img-nosotros img{
+    border-radius: 4rem;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+  .swiper {
+    width: 100%;
+    height: 500px;
+   padding: 10px;
+  }
+
+
+                                                        /*SERVICIOS*/
+
+.card{
+    background: #e5b6a3;
+    color: #6d4a40;
+    border-radius: 40px;
+    box-shadow: 0 0 1rem #6d4a40; 
+        height: 100%;
+ 
+}
+
+.card .card-body{
+text-align: justify;
+}
+
+.card h5{
+    text-align: center;
+}
+
+.card img{
+    width: 70%;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.servicios{
+    background: url(/imagenes/fondo-servicio.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.servicios h3{
+    text-align: justify;
+    color: #6d4a40;
+    padding: 20px 0 0 40px;
+}
+
+.card ul li{
+    text-align: justify;
+    padding: 0 15px 0 0;
+}
+
+.card p{
+    padding: 10px;
+    text-align: justify;
+
+}
+
+
+
+
+                                                                /*UBICACION*/
+
+.ubicanos{
+  padding: 20px;
+}
+.ubicar-contenedor iframe{
+    padding: 0 0 0 20px;
+}
+
+.izquierda{
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 110%;
+}
+.detalle-contenedor {
+     padding: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+    justify-content: center;
+}
+.detalle{
+    font-weight: bold;
+ text-align: center; 
+}
+.izquierda h4{
+    color: #844b32;
+    text-align: center;
+}
+
+.izquierda p{
+    color: #000000;
+    text-align: center;
+    line-height: 0.5;
+}
+
+
+
+                                                                /*fOOTER*/
+
+.footer{
+    background: #6d4a40;
+    color: #000000;
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.redes{
+    text-align: justify;
+    padding-left: 20px;
+    padding: 10px;
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+.redes h3{
+    padding-left: 20px; 
+}
+
+.redes a img{
+    width: 30px;
+}
+
+.copyright{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes a{
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+
+
+@media (max-width: 992px) {
+   
+    
+    .card ul li{
+        font-size: 15px;
+    }
+    
+    .img-nosotros {
+        order: 1;
+    }
+
+    .text-nosotros {
+        order: 2;
+    }
+
+.ubicanos-container .del{
+    text-align: center;
+    justify-content: center;
+}
+.izquierda{
+    background: #ffffff;
+    width: 100%;
+}
+
+.ubicanos{
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+
+.ubicar-contenedor {
+    justify-content: center;
+  
+}
+
+}
+
+
+@media (max-width: 770px) {
+    .swiper-container {
+      height: 400px; 
+    }
+    
+    .swiper-slide {
+      font-size: 18px; 
+      width: 500px;
+      padding: 50px;
+    }
+
+    
+  .swiper {
+    height: 550px;
+  }
+
+  .card {
+
+    height: 500px;
+  }
+  }
+ 
+
+
+@media (max-width: 619px) {
+
+    #Masaje {
+        display: none;
+      }
+
+    .servicios h3{
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .servicios{
+        background: none;
+        background-color: #fff8ed;
+        
+    }
+    
+    .izquierda p{
+        color: #000000;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .ubicar-contenedor iframe{
+        padding: 0 0 0 0;
+    }
+
+
+.footer{
+    display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.redes{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.redes a{
+    padding-left: 0;
+}
+
+
+.nosotros {
+    padding: 10px 10px 0 10px;
+    
+}
+
+
+
+}
+
+
